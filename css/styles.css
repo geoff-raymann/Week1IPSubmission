@@ -55,3 +55,12 @@ p {
     color: limegreen;
     font-style: oblique;
 }
+@media screen and (min-width: 480px) {
+    body {
+        background-color: limegreen;
+
+    }
+    img {
+        scroll-behavior: inherit;
+    }
+}
