@@ -8,49 +8,40 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>My Portfolio</title>
 </head>
-<body>
+<body background="lightgreen">
+
     <header>
-        <img src="images/geoff2020.jpg" width="100" alt="Geoffrey in 2020">
-        <h1>Welcome to my Portfolio</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#sems">New</a>
-            <a href="#recipe">Recipe</a>
-            <a href="#aboutaday">One funny day</a>
-            <a href="#ebooks">E-books</a>
-            <a href="#mype">My Pet</a>
-            <a href="#aboutme">About Me</a>
-        </nav>
-        <h1>These are my interests</h1>
+       <div class="card" style="background-color: lightgreen;">
+           <div class="card-body">
+                <div class="links">
+                    <nav>
+                        <a href="#home">Home</a>
+                        <a href="#projects">Projects+</a>
+                        <a href="#aboutme">About Me</a>
+                    </nav>
+                </div>
+                <h2>Welcome to my Portfolio. <br>Thank you for viewing my Website.</h2><br> 
+                <div class="port-profile text-center color-green">
+                   
+                    <img style="width: 11rem; margin-top: -40px; margin-left: 10%;" class="profile-picture rounded-circle" src="images/geoff2020.jpg" width="100" alt="Geoffrey in 2020" style="position: -ms-page;">
+                    <div><br><b><i>I am Geoff Ray Mann. <br>A Software Engineer from Lucky Summer. Nairobi, Kenya</i></b> </div>
+                </div>
+           </div>
+       </div>
     </header>
-    <main class="container">
-        <h2>Checkout why I am Me!</h2>
-        <article id="sems">
-            <h3>I love to learn new Interesting things</h3>
-            <p>When learning Front-End development on a great web, I met Semantics in HTML. I choose to give it a try. So I wrote a demo that simply reminds me of them every time I wanna put them to use. <b>I was giving it a try</b>. <br><q>There is always a new thing to learn in each day</q>
-            Checkout on <a href="">the Semantic tags</a> I learned.
-            </p>
-        </article>
+    <main class="container card">
+        
         <article id="recipe">
             <h3>Favourite food on my cookbook</h3>
-            <p>I must admit that I love to cook. But there is nothing I love to cook more than <i><em>Chapaties</em></i>. <blockquote>In my life I always say that, if anything you missed what you like doing, Get in the kitchen and get your hands on the cookers and pans and every elements that make good food.</blockquote> I do not know whether to say chapatis are baked but find out in <i><a href="">My recipe</a></i></p>
+            <p>I must admit that I love to cook. But there is nothing I love to cook than <i><em>Chapaties</em></i>. <blockquote>In my life I always say that, if anything you missed what you like doing, Get in the kitchen and get your hands on the cookers and pans and every elements that make good food.</blockquote> I do not know whether to say chapatis are baked but find out in <i><a href="">My recipe</a></i></p>
         </article>
-        <article id="aboutaday">
-            <h3>I Love Bad days</h3>
-            <p>When all days are good, I tend to sitback, relax and enjoy a nostalgic song forgetting that I have a future to work for. <br>Here is <a href="">About a day</a> I ever remember  
-            </p>
-        </article>
-        <article id="ebooks">
-            <h3>Being a reader</h3>
-            <p>Reading is my hobby. I love reading purposefully for research about the truth, exploration of new skills people ever discovered and Yes!, to discover my own too.
-            I thought of publishing my own <a href="">library of online books</a>. Hope you will comeby to read once it is launched.
-            </p>
-        </article>
+        
         <article id="mypet">
             <h3>Guess the animal I Love!</h3>
             <p>If you couldn't then check out on <a href="">my pet</a>. I would like to know yours too.
             </p>
         </article>
+
         <article id="aboutme">
             <h2>About Me</h2>
                <h4>Hi, I am Geoffray Mann, A Sofware Engineer from Rongo, Kenya.</h4>
@@ -59,7 +50,7 @@
             </p>
         </article>
     </main>
-    <footer>
+    <footer class="card">
         <h2>Copyright &copy;2021. All rights Reserved.</h2>
     </footer>
 </body>
