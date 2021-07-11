@@ -64,3 +64,10 @@ p {
         scroll-behavior: inherit;
     }
 }
+footer {
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
