@@ -9,5 +9,6 @@
    * Saved, added and commited using the Git
    * Pushed to this GitHub Repository
 ## Here is the link to the live site on the Github
-* Add a link here
+* https://geoff-raymann.github.io/chapati
+* https://geoff-raymann.github.io/talkaboutpet
 ## Copyright (c) 2021 LICENSED By the MIT LICENSE
