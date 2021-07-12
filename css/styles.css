@@ -7,19 +7,31 @@ nav a {
     text-decoration: wavy;
     text-emphasis: bold;
 }
-.port-profile {
-        width: 20%;
-        height: 50%;
-        position: inherit;
-        top: 50%;
-        left: 50%;
-        margin-top: 100px;
-        margin-left: 500px;
-        color: aliceblue;
-        text-shadow: 10px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: medium;
+@media screen and (min-width: 480px) {
+    
+    header.card {
+        max-width: 460px;
+    }
+    div.port-profile {
+        margin-left: 115px;
+    }
+    
 }
+.port-profile {
+    width: 50%;
+    height: 50%;
+    position: center;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 900px;
+    color: aliceblue;
+    text-shadow: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    
+}
+
 h2 {
     color: cornflowerblue;
 }
@@ -61,7 +73,7 @@ p {
 
     }
     img {
-        scroll-behavior: inherit;
+        
     }
 }
 footer {
@@ -71,3 +83,4 @@ footer {
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
 }
+
